@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Tours - Historic Tours of Texas</title>
+    <meta name="description" content="Explore our wide range of historic tours across Texas - from San Antonio Missions to Austin Historic District and Galveston Ghost Tours.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/tours.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body class="tours-page">
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <img src="./Logo.png" alt="Historic Tours of Texas" class="logo-img">
+                        <span class="logo-text"></span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home &nbsp;&nbsp;&nbsp;<i class="fas fa-home"></i></a></li>
+                        <li><a href="tours.html" class="nav-link active">Tours &nbsp;&nbsp;&nbsp;<i class="fas fa-map-location-dot"></i></a></li>
+                        <li><a href="about.html" class="nav-link">About Us &nbsp;&nbsp;&nbsp;<i class="fas fa-info-circle"></i></a></li>
+                        <li><a href="blog.html" class="nav-link">Blog &nbsp;&nbsp;&nbsp;<i class="fas fa-newspaper"></i></a></li>
+                        <li><a href="contact.html" class="nav-link">FAQ &nbsp;&nbsp;&nbsp;<i class="fas fa-question-circle"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Tours Section -->
+    <section id="tours" class="tours-section section">
+        <div class="container-2">
+            <h2 class="section-heading" style="font-size: 2.5rem;"> <br>Our Historic Tours</h2>
+            
+            <!-- Tour Filters -->
+            <div class="tour-filters">
+                <button class="filter-btn active" data-filter="all">All Tours</button>
+                <button class="filter-btn" data-filter="missions">Mission Tours</button>
+                <button class="filter-btn" data-filter="historic">Historic Sites</button>
+                <button class="filter-btn" data-filter="ghost">Ghost Tours</button>
+                <button class="filter-btn" data-filter="space">Space & History</button>
+            </div>
+
+            <div class="tours-list-wrapper">
+                <div class="tours-list">
+                    <!-- One Day Tours -->
+                    <div class="tour-item" data-category="one-day popular missions">
+                        <div class="tour-card">
+                            <img src="https://images.pexels.com/photos/14785031/pexels-photo-14785031.jpeg" alt="One Day Tours" class="tour-image"/>
+                            <div class="tour-info">
+                                <h3 class="tour-title">One Day Tours</h3>
+                                <p class="tour-description">Explore historic sites, charming small towns, and cultural landmarks across Texas. Intimate groups of 8-12 people enjoying personalized historical experiences.</p>
+                                <div class="tour-details">
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="far fa-clock"></i></div>
+                                        <div class="tour-detail-text">Custom Hours</div>
+                                    </div>
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="fas fa-users"></i></div>
+                                        <div class="tour-detail-text">8-12 People</div>
+                                    </div>
+                                </div>
+                                <a href="#one-day" class="tour-button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Multi-Day Tours -->
+                    <div class="tour-item" data-category="multi-day popular historic">
+                        <div class="tour-card">
+                            <img src="https://images.pexels.com/photos/12729168/pexels-photo-12729168.jpeg" alt="Multi-Day Tours" class="tour-image"/>
+                            <div class="tour-info">
+                                <h3 class="tour-title">Multi-Day Tours</h3>
+                                <p class="tour-description">Spend time discovering wonderful historic sites in Texas, Mexico and Spain with immersive multi-day experiences.</p>
+                                <div class="tour-details">
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="far fa-calendar"></i></div>
+                                        <div class="tour-detail-text">Multiple Days</div>
+                                    </div>
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="fas fa-globe"></i></div>
+                                        <div class="tour-detail-text">International</div>
+                                    </div>
+                                </div>
+                                <a href="#multi-day" class="tour-button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ghost Tours -->
+                    <div class="tour-item" data-category="ghost popular">
+                        <div class="tour-card">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWlfHx8fGVufDB8fHx8fA%3D&auto=format&fit=crop&w=400&q=80" alt="Ghost Tours" class="tour-image"/>
+                            <div class="tour-info">
+                                <h3 class="tour-title">Ghost Tours</h3>
+                                <p class="tour-description">Haunted Huntsville bus tour to haunted places including buildings, cemeteries and the "Wall Bats" in flight.</p>
+                                <div class="tour-details">
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="far fa-clock"></i></div>
+                                        <div class="tour-detail-text">2-3 Hours</div>
+                                    </div>
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="fas fa-users"></i></div>
+                                        <div class="tour-detail-text">Small Groups</div>
+                                    </div>
+                                </div>
+                                <a href="#ghost-tours" class="tour-button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Wine Tours -->
+                    <div class="tour-item" data-category="wine popular">
+                        <div class="tour-card">
+                            <img src="https://cdn.prod.website-files.com/60affb52bbf53234df27f9da/64cc0635747343f7abbdb0ee_20230803_143704%20(1).avif" alt="Wine Tours" class="tour-image"/>
+                            <div class="tour-info">
+                                <h3 class="tour-title">Wine Tours</h3>
+                                <p class="tour-description">Three wineries fit into an all-day tour with a delicious lunch included. Enjoy 8 quality wineries all in one region.</p>
+                                <div class="tour-details">
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="far fa-clock"></i></div>
+                                        <div class="tour-detail-text">Full Day</div>
+                                    </div>
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="fas fa-utensils"></i></div>
+                                        <div class="tour-detail-text">Lunch Included</div>
+                                    </div>
+                                </div>
+                                <a href="#wine-tours" class="tour-button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tiny Town Tours -->
+                    <div class="tour-item" data-category="tiny-town walking historic">
+                        <div class="tour-card">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWlfHx8fGVufDB8fHx8fA%3D&auto=format&fit=crop&w=400&q=80" alt="Tiny Town Tours" class="tour-image"/>
+                            <div class="tour-info">
+                                <h3 class="tour-title">Tiny Town Tours</h3>
+                                <p class="tour-description">Join us for a relaxing lunch and tour to a different town each Friday. Experience orange biscuits, jalapeño jam and painted churches.</p>
+                                <div class="tour-details">
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="far fa-calendar"></i></div>
+                                        <div class="tour-detail-text">Fridays</div>
+                                    </div>
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="fas fa-utensils"></i></div>
+                                        <div class="tour-detail-text">Lunch Included</div>
+                                    </div>
+                                </div>
+                                <a href="#tiny-town" class="tour-button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- International Tours -->
+                    <div class="tour-item" data-category="international popular">
+                        <div class="tour-card">
+                            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWlfHx8fGVufDB8fHx8fA%3D&auto=format&fit=crop&w=400&q=80" alt="International Tours" class="tour-image"/>
+                            <div class="tour-info">
+                                <h3 class="tour-title">International Tours</h3>
+                                <p class="tour-description">Book now! Enjoy celebrations like New Years' Eve with spectacular fireworks and international destinations.</p>
+                                <div class="tour-details">
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="fas fa-globe"></i></div>
+                                        <div class="tour-detail-text">Global</div>
+                                    </div>
+                                    <div class="tour-detail-item">
+                                        <div class="tour-detail-icon"><i class="fas fa-star"></i></div>
+                                        <div class="tour-detail-text">Premium</div>
+                                    </div>
+                                </div>
+                                <a href="#international" class="tour-button">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="./Logo.jpg" alt="Historic Tours of Texas" class="footer-logo-img">
+                        <h3 class="footer-logo-text">Historic Tours of Texas</h3>
+                    </div>
+                    <p class="footer-description">
+                        Discover the rich history and heritage of Texas through our expertly guided tours.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Tour Types</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">One Day Tours</a></li>
+                        <li><a href="#">Ghost Tours</a></li>
+                        <li><a href="#">Wine Tours</a></li>
+                        <li><a href="#">Multi-Day Tours</a></li>
+                        <li><a href="#">International Tours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item2">
+                            <i class="fas fa-phone"></i>
+                            <span>(936) 295-2123</span>
+                        </div>
+                        <div class="contact-item2">
+                            <i class="fas fa-envelope"></i>
+                            <span>historictexas@aol.com</span>
+                        </div>
+                        <div class="contact-item2">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Huntsville, Texas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2024 Historic Tours of Texas. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
